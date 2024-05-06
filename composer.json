@@ -1,0 +1,30 @@
+{
+    "name": "zhuger/pinduoduo",
+    "description": "拼多多API SDK【拼多多开放平台】.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "pinduoduo",
+        "duoduoke",
+        "拼多多",
+        "拼多多SDK",
+        "多多客",
+        "sdk"
+    ],
+    "authors": [
+        {
+            "name": "zhuger",
+            "email": "543585543@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ZhuGer\\PinDuoDuo\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.0||^8.0",
+        "hanson/foundation-sdk": "^5.0",
+        "ext-json": "*"
+    }
+}
